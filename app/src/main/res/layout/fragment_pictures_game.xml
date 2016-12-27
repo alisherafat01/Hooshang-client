@@ -1,0 +1,349 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="me.alisherafat.hooshang.games.pictures.PicturesGameFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:gravity="left"
+                android:text="User 1"
+                />
+
+            <TextView
+                android:id="@+id/txtPoint1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="0"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/txtName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="User 2"
+                />
+
+            <TextView
+                android:id="@+id/txtPoint2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="0"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img0"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="0"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="1"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="2"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="3"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="4"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img5"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="5"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="6"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="7"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img8"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="8"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img9"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="9"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img10"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="10"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img11"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="11"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img12"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="12"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="13"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img14"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="14"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img15"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="15"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img16"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="16"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img17"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="17"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img18"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="18"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img19"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="19"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            >
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img20"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="20"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img21"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="21"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img22"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="22"
+                app:backgroundTint="#ccc"/>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/img23"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="3dp"
+                android:layout_weight="1"
+                android:tag="23"
+                app:backgroundTint="#ccc"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
